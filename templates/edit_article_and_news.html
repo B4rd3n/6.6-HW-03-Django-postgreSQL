@@ -11,8 +11,8 @@
 {% elif request.resolver_match.url_name == 'news_edit' %}
     <h1>News Update</h1>
 {% endif%}
-
 <hr>
+
 <form action='' method="post">
     {% csrf_token %}
     {{ form.as_p }}

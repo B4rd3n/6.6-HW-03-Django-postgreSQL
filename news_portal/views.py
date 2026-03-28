@@ -1,4 +1,5 @@
-from django.views.generic import ListView, DetailView, CreateView, UpdateView
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .filters import PostFilter
 from .forms import PostForm
 
@@ -46,6 +47,7 @@ class CreateContent(CreateView):
         article.content_type = self.type_of_content
         return super().form_valid(form)
 
+
 class CreateArticles(CreateContent):
     type_of_content = 'AT'
 
@@ -73,6 +75,28 @@ class UpdateArticles(UpdateContent):
 class UpdateNews(UpdateContent):
     template_name = 'edit_article_and_news.html'
     type_of_content = 'NW'
+
+
+class DeleteContent(DeleteView):
+    model = Post
+    template_name = ''
+    type_of_content = ''
+    success_url = reverse_lazy('news_list')
+
+    def get_queryset(self):
+        return Post.objects.filter(content_type = self.type_of_content)
+
+
+class DeleteArticles(DeleteContent):
+    template_name = 'delete_article_and_news.html'
+    type_of_content = 'AT'
+
+
+class DeleteNews(DeleteContent):
+    template_name = 'delete_article_and_news.html'
+    type_of_content = 'NW'
+
+
 
 
 
