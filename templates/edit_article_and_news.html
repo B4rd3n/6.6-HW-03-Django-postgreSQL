@@ -2,7 +2,16 @@
 
 {% block content %}
 
-<h1>Пост</h1>
+{% if request.resolver_match.url_name == 'articles_create' %}
+    <h1>Write an Article</h1>
+{% elif request.resolver_match.url_name == 'news_create' %}
+    <h1>Create News</h1>
+{% elif request.resolver_match.url_name == 'articles_edit' %}
+    <h1>Edit Article</h1>
+{% elif request.resolver_match.url_name == 'news_edit' %}
+    <h1>News Update</h1>
+{% endif%}
+
 <hr>
 <form action='' method="post">
     {% csrf_token %}
