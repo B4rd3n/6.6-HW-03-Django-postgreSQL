@@ -7,11 +7,15 @@
 </head>
 <body>
     <h2>Здравствуйте, {{ user.username }}!</h2>
-    <p>В категории, на которую вы подписаны, появился новый пост:</p>
+    <p>Специально для вас мы собрали список всех постов из ваших любимых категорий!</p>
     <hr>
+    {% for post in post_list %}
     <h3>{{ post.title }}</h3>
     <p>{{ post.preview }}</p>
     <a href="http://127.0.0.1:8000/news/{{ post.id }}">click on this link to check the news</a>
     <br>
+    <br>
+    {% endfor %}
+
 </body>
 </html>

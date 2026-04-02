@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Post, Subscriber, Category
+from .models import Post, Subscriber
 
 
 class PostForm(forms.ModelForm):
