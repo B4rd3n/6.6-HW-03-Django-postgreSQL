@@ -2,16 +2,22 @@
 
 {% load my_filters %}
 {% load my_tags %}
+{% load cache %}
 
 {% block title %}
 All News
 {% endblock title %}
 
+
 {% block content %}
+
     <h1> Hot News </h1>
+    {% cache 60 counter %}
     <h4> News Amount: {{ paginator.count }} </h4>
+    {% endcache %}
     <hr>
 
+    {% cache 60 main_posts page_obj.number %}
     {% if news %}
 
         {% for post in news %}
@@ -26,6 +32,7 @@ All News
         <h2> There is no news... </h2>
 
     {% endif %}
+    {% endcache %}
 
 
     {% if page_obj.has_previous %}
