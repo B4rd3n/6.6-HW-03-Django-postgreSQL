@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Sum
 from django.urls import reverse
+from django.core.cache import cache
 
 from .content_types import POSITIONS
 
@@ -63,6 +64,10 @@ class Post(models.Model):
 
     def __str__(self):
         return f'{self.title.title()}'
+
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)  # сначала вызываем метод родителя, чтобы объект сохранился
+        cache.delete(f'post-{self.pk}')
 
 
 
