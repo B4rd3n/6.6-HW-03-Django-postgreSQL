@@ -9,6 +9,12 @@
         {% load static %}
         {% load my_filters %}
         {% load i18n %}
+        {% load tz %}
+        <style>
+            body {background-color: {% if current_time.hour >= 19 or current_time.hour <= 7 %} #373737 {% else %} #d5f4f9 {% endif %} !important;
+            color: {% if current_time.hour >= 19 or current_time.hour <= 7 %} white {% else %} #333 {% endif %} !important;
+            }
+        </style>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
         <!-- Core theme CSS (includes Bootstrap)-->

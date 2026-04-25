@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Category, Post, PostCategory, Author
+from modeltranslation.admin import TranslationAdmin
 
 
 
@@ -9,14 +10,16 @@ class PostCategoryInline(admin.TabularInline):
     extra = 1
 
 
-class PostAdmin(admin.ModelAdmin):
+class PostAdmin(TranslationAdmin, admin.ModelAdmin):
+    model = Post
     inlines = [PostCategoryInline]
     list_display = ('title', 'posted_by__user__username')
     list_filter = ('post_category', 'posted_by__user__username')
     search_fields = ('title', 'post_category__name')
 
 
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(TranslationAdmin, admin.ModelAdmin):
+    model = Category
     list_display = ('name', 'subs_amount', 'posts_in_category')
     list_filter = ('name', )
     search_fields = ('name', )

@@ -1,10 +1,13 @@
+from allauth.core.internal.httpkit import redirect
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin, UserPassesTestMixin
-from django.http import HttpResponse
+from django.http.response import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, TemplateView
 from datetime import datetime
 from django.core.cache import cache
+from django.utils import timezone
 import logging
+import pytz
 
 
 from .filters import PostFilter
@@ -54,12 +57,17 @@ class NewsList(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['filterset'] = self.filterset
+        context['timezones'] = pytz.common_timezones
         return context
 
     def get_queryset(self):
         queryset = super().get_queryset()
         self.filterset = PostFilter(self.request.GET, queryset)
         return self.filterset.qs
+
+    def post(self, request):
+        request.session['django_timezone'] = request.POST['timezone']
+        return redirect('news_list')
 
 
 class NewsDetailView(LoginRequiredMixin, DetailView):

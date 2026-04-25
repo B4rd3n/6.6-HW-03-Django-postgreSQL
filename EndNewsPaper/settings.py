@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
 
@@ -35,6 +35,8 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,6 +76,7 @@ MIDDLEWARE = [
     "allauth.account.middleware.AccountMiddleware",
 
     'middlewares.device_type.DeviceTypeMiddleware',
+    'middlewares.timezone_mw.TimezoneMiddleware',
 ]
 
 ROOT_URLCONF = 'EndNewsPaper.urls'
@@ -88,6 +91,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'news_portal.context_processors.get_current_time',
             ],
         },
     },

@@ -16,3 +16,26 @@ ZeroDivisionError: division by zero
 2026-04-25 12:30:17,783 INFO autoreload Watching for file changes with StatReloader
 2026-04-25 12:34:56,000 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\news_portal\views.py changed, reloading.
 2026-04-25 12:44:01,934 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 18:57:15,351 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:01:47,840 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:10:39,869 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:11:04,099 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:12:32,387 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:17:10,921 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\news_portal\views.py changed, reloading.
+2026-04-25 19:17:13,029 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:19:58,091 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:22:04,849 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:28:49,788 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:35:42,230 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\EndNewsPaper\settings.py changed, reloading.
+2026-04-25 19:35:43,038 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:36:10,709 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:36:35,554 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:37:15,829 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\news_portal\views.py changed, reloading.
+2026-04-25 19:37:16,627 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:37:21,128 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:37:33,653 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:38:56,163 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:39:16,627 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:39:48,270 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\news_portal\views.py changed, reloading.
+2026-04-25 19:39:49,082 INFO autoreload Watching for file changes with StatReloader
+2026-04-25 19:41:32,527 INFO autoreload Watching for file changes with StatReloader
