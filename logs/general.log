@@ -42,3 +42,75 @@ ZeroDivisionError: division by zero
 2026-04-25 19:49:36,750 INFO autoreload Watching for file changes with StatReloader
 2026-04-25 19:50:56,574 INFO autoreload Watching for file changes with StatReloader
 2026-04-25 19:51:02,803 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:12:23,851 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:13:05,363 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:13:46,581 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:14:00,080 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:14:22,511 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:14:23,273 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:14:25,632 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:14:37,861 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:14:55,925 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:14:56,703 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:16:16,304 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:19:02,444 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:19:20,826 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:19:21,613 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:19:38,547 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:20:37,176 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:20:37,966 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:21:03,578 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:21:10,672 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:21:11,438 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:21:30,596 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:21:31,381 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:21:34,383 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:21:35,263 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:27:48,445 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:27:49,338 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:28:08,746 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:28:09,552 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:28:56,194 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:29:51,974 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\EndNewsPaper\urls.py changed, reloading.
+2026-04-26 18:29:52,844 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:29:56,076 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:31:01,382 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\serializers.py changed, reloading.
+2026-04-26 18:31:02,219 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:32:07,194 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\serializers.py changed, reloading.
+2026-04-26 18:32:08,026 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:37:17,396 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\urls.py changed, reloading.
+2026-04-26 18:37:18,184 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:37:57,662 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:41:01,971 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:41:02,746 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:41:05,271 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:41:54,997 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:41:55,824 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:43:13,446 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:44:40,223 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:54:53,312 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\EndNewsPaper\settings.py changed, reloading.
+2026-04-26 18:54:54,125 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:58:59,943 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:59:00,735 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:59:21,779 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:59:22,573 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 18:59:32,579 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 18:59:33,404 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:02:35,010 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:02:37,416 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:03:01,737 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:03:02,537 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:05:10,114 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:05:10,916 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:05:15,051 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:12:27,255 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:12:28,025 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:12:45,376 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\serializers.py changed, reloading.
+2026-04-26 19:12:46,128 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:12:52,417 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\serializers.py changed, reloading.
+2026-04-26 19:12:53,174 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:13:05,438 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:14:44,554 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:14:45,325 INFO autoreload Watching for file changes with StatReloader
+2026-04-26 19:16:44,488 INFO autoreload D:\Downloads\PyProjects\Module_D_Project\EndNewsPaper\api\views.py changed, reloading.
+2026-04-26 19:16:45,309 INFO autoreload Watching for file changes with StatReloader

@@ -19,8 +19,10 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('news/', include('news_portal.urls')),
     path('accounts/', include('allauth.urls')),
-    path('sign/', include('sign.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('news/', include('news_portal.urls')),
+    path('sign/', include('sign.urls')),
+    path('api/', include('api.urls')),
 ]
